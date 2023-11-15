@@ -1,11 +1,12 @@
 import React from 'react';
+import Carousel from "../carousel/carousel";
 
 function Portfolio() {
     return (
         <div>
             <section id="section1">
                 <h2>Sekce 1</h2>
-                {/* Obsah sekce 1 */}
+                {Carousel}
             </section>
             <section id="section2">
                 <h2>Sekce 2</h2>
