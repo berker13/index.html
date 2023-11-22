@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './carousel.css';
 
+
 const images = [
     'image1.jpg',
-
-    'image3.jpeg',
+    'image2.jpg',
+    'image3.jpg',
     'image4.jpg',
 ];
 
