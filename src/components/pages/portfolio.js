@@ -3,10 +3,11 @@ import Carousel from "../carousel/carousel";
 import Header from "../headr/header";
 import Footer from "../footer/footer";
 import "./skills.css";
+import { Grommet } from 'grommet';
 
 function Portfolio() {
     return (
-        <div>
+        <Grommet full>
             <section id="sectionheader">
                 {<Header></Header>}
             </section>
@@ -42,7 +43,7 @@ function Portfolio() {
             <section id="sectionfooter">
                 {<Footer></Footer>}
             </section>
-        </div>
+        </Grommet>
     );
 }
 export default Portfolio;
