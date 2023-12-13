@@ -4,6 +4,7 @@ import Header from "../headr/header";
 import Footer from "../footer/footer";
 import "./skills.css";
 import { Grommet } from 'grommet';
+import { introdata, socials} from "./data.js";
 
 function Portfolio() {
     return (
